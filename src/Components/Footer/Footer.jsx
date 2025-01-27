@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#243E36] text-[#F1F7ED] py-6">
+    <footer className="bg-[#243E36] text-[#7CA982] py-6">
       <div className="container mx-auto flex flex-col items-center space-y-4">
         {/* Website Logo */}
-        <Link to='/' className="text-2xl font-bold tracking-wide"><i>&micro;</i>_Earn</Link>
+        <Link to='/' className="text-2xl hover:text-[#F1F7ED] font-bold tracking-wide"><i>&micro;</i>_Earn</Link>
 
         {/* Social Media Icons */}
         <div className="flex space-x-6">
