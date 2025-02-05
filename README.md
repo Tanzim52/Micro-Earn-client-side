@@ -1,5 +1,6 @@
 # 🚀 Micro-Earn (Client Side)
 
+![CritiQ Banner](https://i.ibb.co.com/JFmJRpS8/me.png)
 
 **Micro-Earn** is a **micro-tasking and earning platform** where users can complete small tasks to earn rewards. The platform supports three roles: **Worker, Buyer, and Admin**, ensuring a seamless task management experience.
 
