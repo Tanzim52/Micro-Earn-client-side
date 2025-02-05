@@ -7,13 +7,10 @@
 ## 🌟 Live Site  
 🔗 [Micro-Earn Live Website](https://assignment-12-3a245.web.app/)  
 
-## 📂 Repository Links  
-- **Client Side:** [Micro-Earn Client GitHub](YOUR_CLIENT_REPO_URL)  
-- **Server Side:** [Micro-Earn Server GitHub](YOUR_SERVER_REPO_URL)  
 
 ## 👤 Admin Credentials  
-- **Email:** `admin@example.com`  
-- **Password:** `your-secure-password`  
+- **Email:** `mtanzim229@gmail.com`  
+- **Password:** `create1`  
 
 ---
 
