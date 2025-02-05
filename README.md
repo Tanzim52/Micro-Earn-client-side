@@ -5,7 +5,7 @@
 **Micro-Earn** is a **micro-tasking and earning platform** where users can complete small tasks to earn rewards. The platform supports three roles: **Worker, Buyer, and Admin**, ensuring a seamless task management experience.
 
 ## 🌟 Live Site  
-🔗 [Micro-Earn Live Website](YOUR_LIVE_SITE_URL)  
+🔗 [Micro-Earn Live Website](https://assignment-12-3a245.web.app/)  
 
 ## 📂 Repository Links  
 - **Client Side:** [Micro-Earn Client GitHub](YOUR_CLIENT_REPO_URL)  
