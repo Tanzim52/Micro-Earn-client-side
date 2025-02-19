@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className=''>
             
-            <Slider />
+            <div className='max-h-[600px]'><Slider /></div>
             {/* Best workers */}
             <BestWorkers/>
             <AvailableTasks/>

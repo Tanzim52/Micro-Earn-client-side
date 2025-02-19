@@ -46,7 +46,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="navbar px-4 md:px-[105px] sticky top-0 z-50 bg-base-100 dark:bg-gray-900 dark:text-white">
+        <div className="navbar px-4 md:px-[105px] sticky top-0 z-50 bg-[#3D405B] text-white">
             {/* Navbar Start */}
             <div className="navbar-start">
                 {/* Mobile Menu Button */}
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <FaBars className="text-xl" />
                     </label>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 dark:bg-gray-900 dark:text-white rounded-box z-50 mt-3 w-52 p-2 shadow-md">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content bg-[#3D405B] text-white rounded-box z-50 mt-3 w-52 p-2 shadow-md">
                         {user ? (
                             <Link target="_blank" to="https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-Ariful544" 
                                 className="btn w-full bg-secondary border border-secondary hover:bg-[#f98633] hover:border-[#f98633] text-white">
@@ -74,9 +74,9 @@ const Navbar = () => {
                 </div>
                 
                 {/* Logo */}
-                <Link to="/" className="flex items-center font-bold text-gray-800 dark:text-white tracking-wider">
-                    <img className="w-12 md:w-14 h-12 md:h-14" src={logo} alt="Logo" />
-                    <span className="ml-2 md:text-3xl text-2xl">PicciWorkers</span>
+                <Link to="/" className="flex items-center font-bold tracking-wider">
+                    
+                    <span className="ml-2 md:text-3xl text-2xl">μ-Earn</span>
                 </Link>
             </div>
 
@@ -107,7 +107,7 @@ const Navbar = () => {
                                     )}
                                 </div>
                             </label>
-                            <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 dark:bg-gray-900 dark:text-white rounded-box z-50 mt-3 w-52 p-2 shadow-md">
+                            <ul tabIndex={0} className="menu menu-sm dropdown-content bg-[#3D405B] text-white rounded-box z-50 mt-3 w-52 p-2 shadow-md">
                                 <li><Link to={getDashboardLink()}>Dashboard</Link></li>
                                 <li><button onClick={handleLogOut}>Logout</button></li>
                             </ul>
@@ -117,7 +117,7 @@ const Navbar = () => {
                     <div className="hidden md:flex items-center gap-2">
                         <Link to="/register" className="btn btn-primary text-white">Register</Link>
                         <Link to="/login" className="btn btn-warning text-white">Login</Link>
-                        <Link target="_blank" to="https://github.com/Tanzim52/Micro-Earn-client-side" 
+                        <Link target="_blank" to="https://github.com/Programming-Hero-Web-Course4/b10a12-client-side-Ariful544" 
                             className="btn bg-secondary border border-secondary hover:bg-[#f98633] hover:border-[#f98633] text-white">
                             Join as Developer
                         </Link>
