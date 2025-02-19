@@ -57,7 +57,7 @@ const Register = () => {
                 <Lottie animationData={registerAnimation} loop={true}></Lottie>
             </div>
             <div className="bg-base-100 space-y-4 py-10 px-10 w-full">
-                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider"><img className='w-14 h-14' src={logo} alt="" /> PicciWorkers</Link>
+                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider">μ-Earn</Link>
                 <h2 className='text-3xl text-black'>Sign Up Account</h2>
                 <p className='text-black'>Please fill all the required form to create an account in Picoworkers.</p>
                 <form onSubmit={handleSubmit(onSubmit)} className=''>

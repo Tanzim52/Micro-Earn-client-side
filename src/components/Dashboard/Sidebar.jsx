@@ -46,7 +46,7 @@ const Sidebar = ({ data }) => {
                     <Link
                         to="/"
                         className="md:text-2xl text-2xl flex items-center font-bold text-white tracking-wider">
-                        <img className="w-10 h-10" src={logo} alt="" /> PicciWorkers
+                         μ-Earn
                     </Link>
                 </div>
 
