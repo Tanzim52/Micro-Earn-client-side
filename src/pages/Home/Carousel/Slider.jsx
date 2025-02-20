@@ -1,14 +1,14 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../../../assets/img1.jpg'
-import img2 from '../../../assets/img2.jpg'
-import img3 from '../../../assets/img3.jpg'
-import img4 from '../../../assets/img4.jpg'
-import SliderHeading from "../../../components/sliderHeading";
+import img1 from '../../../assets/img1.jpg';
+import img2 from '../../../assets/img2.jpg';
+import img3 from '../../../assets/img3.jpg';
+import img4 from '../../../assets/img4.jpg';
+import SliderHeading from "../../../components/SliderHeading";
 
 const Slider = () => {
     return (
-        <div className="w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] mb-8">
+        <div className="w-full max-w-screen-2xl mx-auto">
             <Carousel 
                 showThumbs={false} 
                 showArrows={false} 
@@ -16,19 +16,20 @@ const Slider = () => {
                 showStatus={false} 
                 infiniteLoop={true} 
                 interval={4000} 
-                dynamicHeight={false}
+                dynamicHeight={false} 
+                className="relative"
             >
                 {/* Slide 1 */}
-                <div className="h-full flex items-center justify-center">
+                <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] flex items-center justify-center">
                     <SliderHeading 
                         img={img1} 
                         title="Find the Best Micro Jobs in Our Marketplace." 
-                        subtitle="Using μ-Earn, You can earn money by completing micro jobs that start right away - Your one way to work from home and start earning" 
+                        subtitle="Using Picoworkers, You can earn money by completing micro jobs that start right away - Your one way to work from home and start earning" 
                     />
                 </div>
 
                 {/* Slide 2 */}
-                <div className="h-full flex items-center justify-center">
+                <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] flex items-center justify-center">
                     <SliderHeading 
                         img={img2} 
                         title="Earn Money from Anywhere with Micro Tasks" 
@@ -37,7 +38,7 @@ const Slider = () => {
                 </div>
 
                 {/* Slide 3 */}
-                <div className="h-full flex items-center justify-center">
+                <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] flex items-center justify-center">
                     <SliderHeading 
                         img={img3} 
                         title="Turn Small Tasks into Big Rewards" 
@@ -46,7 +47,7 @@ const Slider = () => {
                 </div>
 
                 {/* Slide 4 */}
-                <div className="h-full flex items-center justify-center">
+                <div className="relative w-full h-[250px] sm:h-[350px] md:h-[450px] lg:h-[550px] flex items-center justify-center">
                     <SliderHeading 
                         img={img4} 
                         title="Work Smarter, Earn Faster" 

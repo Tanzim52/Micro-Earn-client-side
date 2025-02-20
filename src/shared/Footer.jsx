@@ -1,7 +1,8 @@
 
 import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-
+import React from "react";
+import logo from "../assets/μ-Earn_fav_icon_with_no_background-removebg-preview.png";
 import { SiBackendless } from "react-icons/si";
 import { Link } from "react-router-dom";
 // import logo from "../assets/1000094661-modified.png";
@@ -13,10 +14,11 @@ export default function Footer() {
 
           <p className="flex flex-col md:flex-row items-start md:items-center gap-2">
             <div>
-            {/* <img src='' alt="logo" className="h-14 w-14" /> */}
+            <img src={logo} alt="logo" className="h-14 w-14" />
             </div>
             <div>
-              <Link to='/'><p className="font-bold text-xl">μ-Earn</p></Link>
+              <Link to='/'>
+              <p className="font-bold text-xl">μ-Earn</p></Link>
 
               <p className="italic">Trust & Reliablity is always the priority.</p>
             </div>

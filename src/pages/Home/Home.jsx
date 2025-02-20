@@ -10,8 +10,7 @@ import GetStarted from './GetStarted/GetStarted';
 const Home = () => {
     return (
         <div className=''>
-            
-            <div className='max-h-[600px]'><Slider /></div>
+            <Slider />
             {/* Best workers */}
             <BestWorkers/>
             <AvailableTasks/>

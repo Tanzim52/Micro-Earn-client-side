@@ -18,7 +18,7 @@ const BestWorkers = () => {
         },
     });
     return (
-        <div className='max-w-screen-xl mx-auto'>
+        <div className='w-4/5 mx-auto'>
             <div className='text-center mt-20 flex justify-center space-y-3 flex-col items-center'>
                 <h3 className='md:text-4xl text-3xl text-center tracking-wider font-bold uppercase pt-10'>Best Workers</h3>
                 <div className='w-24 h-2 rounded-lg bg-secondary'></div>
