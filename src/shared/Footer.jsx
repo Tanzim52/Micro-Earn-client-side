@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // import logo from "../assets/1000094661-modified.png";
 export default function Footer() {
   return (
-    <>
+    <div id="footer">
       <footer className="footer bg-[#3D405B] text-neutral-content p-10">
         <aside>
 
@@ -41,6 +41,6 @@ export default function Footer() {
           <p>Copyright © {new Date().getFullYear()} - All right reserved by MJ. Tanzim Development</p>
         </aside>
       </footer>
-    </>
+    </div>
   );
 }

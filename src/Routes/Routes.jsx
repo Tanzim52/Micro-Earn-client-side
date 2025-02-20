@@ -21,6 +21,7 @@ import AdminHome from "../pages/Dashboard/Admin/AdminHome";
 import ProtectedRoutes from "./ProtectedRoutes";
 import Profile from "../pages/Dashboard/Profile/Profile";
 import AdminRoutes from "./AdminRoutes";
+import Features from "../pages/Home/Features/Features";
 const routes = createBrowserRouter([
     {
         path: '/',
@@ -34,6 +35,7 @@ const routes = createBrowserRouter([
                 path: 'login',
                 element: <Login/>
             },
+            
             {
                 path: 'register',
                 element: <Register/>
