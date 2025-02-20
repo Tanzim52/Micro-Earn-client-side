@@ -2,7 +2,7 @@ import Lottie from 'lottie-react';
 import React from 'react';
 import login from '../../../public/login.json'
 import { Link, useNavigate } from 'react-router-dom';
-// import logo from '../../../public/icons8-p-button-96.png'
+import logo from '../../../src/assets/μ-Earn_fav_icon_with_no_background-removebg-preview.png';
 import { FaGoogle } from 'react-icons/fa';
 import { useForm } from 'react-hook-form';
 import useAuth from '../../Hooks/useAuth';
@@ -72,7 +72,7 @@ const Login = () => {
                 <Lottie animationData={login} loop={true}></Lottie>
             </div>
             <div className="bg-base-100 space-y-4 py-10 px-10 w-full">
-                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider"> μ-Earn</Link>
+                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider"><img className='h-12' src={logo} alt="" /> μ-Earn</Link>
                 <h2 className='text-3xl text-black'>Log in Account</h2>
                 <p className='text-black'>Please log in your account to access your all data.</p>
                 <form onSubmit={handleSubmit(onSubmit)} className=''>

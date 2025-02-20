@@ -2,7 +2,7 @@ import Lottie from 'lottie-react';
 import React, { useState } from 'react';
 import registerAnimation from '../../../public/register.json'
 import { Link, useNavigate } from 'react-router-dom';
-import logo from '../../../public/icons8-p-button-96.png'
+import logo from '../../../src/assets/μ-Earn_fav_icon_with_no_background-removebg-preview.png'
 import axios from 'axios';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
@@ -57,9 +57,9 @@ const Register = () => {
                 <Lottie animationData={registerAnimation} loop={true}></Lottie>
             </div>
             <div className="bg-base-100 space-y-4 py-10 px-10 w-full">
-                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider">μ-Earn</Link>
+                <Link to="/" className="text-3xl -ml-2 flex items-center font-bold text-gray-700 tracking-wider"><img className='h-12' src={logo} alt="" />μ-Earn</Link>
                 <h2 className='text-3xl text-black'>Sign Up Account</h2>
-                <p className='text-black'>Please fill all the required form to create an account in Picoworkers.</p>
+                <p className='text-black'>Please fill all the required form to create an account in μ-Earn.</p>
                 <form onSubmit={handleSubmit(onSubmit)} className=''>
                     <div className="form-control">
                         <label className="label">

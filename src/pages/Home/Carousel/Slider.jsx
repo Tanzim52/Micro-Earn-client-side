@@ -24,7 +24,7 @@ const Slider = () => {
                     <SliderHeading 
                         img={img1} 
                         title="Find the Best Micro Jobs in Our Marketplace." 
-                        subtitle="Using Picoworkers, You can earn money by completing micro jobs that start right away - Your one way to work from home and start earning" 
+                        subtitle="Using μ-Earn, You can earn money by completing micro jobs that start right away - Your one way to work from home and start earning" 
                     />
                 </div>
 
